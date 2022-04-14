@@ -1,0 +1,55 @@
+spring:
+  profiles:
+    active:
+    - development
+server:
+  port: 8900
+logging:
+  level:
+    root: INFO
+
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: development
+      on-cloud-platform: kubernetes
+  lifecycle:
+    timeout-per-shutdown-phase: 30s
+management:
+  security:
+    enabled: false
+  endpoint:
+    health:
+      show-details: always
+      probes:
+        enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+    enabled-by-default: true
+  info:
+    env:
+      enabled: true
+    java:
+      enabled: true
+    git:
+      mode: full
+info:
+  application:
+    name: Customers-Demo
+    description: A Demo for Spring-Boot, JDK 17, R2DBC
+server:
+  shutdown: graceful
+
+logging:
+  level:
+    root: INFO
+    com.gorylenko: DEBUG
+
+
+
+
