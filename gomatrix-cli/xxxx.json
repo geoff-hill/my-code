@@ -1,0 +1,35 @@
+{
+    "DOCKER_CUSTOM_IMAGE_NAME": "sunwaterregistrydev.azurecr.io/meter-reading-api:20210527.2",
+    "SERILOG__WRITETO__0__ARGS__INSTRUMENTATIONKEY": "6326ac19-0eca-40ae-b7d2-4e2adf3255ba",
+    "WEBSITE_HTTPLOGGING_RETENTION_DAYS": "7",
+    "AZUREAD__AUTHORITY": "https://login.microsoftonline.com/***/",
+    "AZUREAD__CLIENTID": "05b13faa-39ad-4892-87a0-520126934c2c",
+    "CONNECTIONSTRINGS__MeterReadingConnection": "Server=tcp:ae-sp1-p-onlineportal-sql.database.windows.net,1433;Initial",
+    "": "Timeout=30;",
+    "Hangfire__Enabled": "true",
+    "MeterReading__CorsOriginApp__0": "ionic://localhost",
+    "Environment": "production",
+    "StorageConfig__ConnectionString": "***",
+    "AZUREAD__ResourceId": "api://05b13faa-39ad-4892-87a0-520126934c2c",
+    "ConfigPassword": "***",
+    "Hangfire__Key": "fe395d3b-37c6-4232-ab86-1e23225382f8",
+    "MeterReading__CorsOriginApp__1": "https://aesp1pmeterreadingsite.z8.web.core.windows.net"
+}
+
+{
+    "DOCKER_CUSTOM_IMAGE_NAME": "sunwaterregistrydev.azurecr.io/meter-reading-api:20210527.2",
+    "SERILOG__WRITETO__0__ARGS__INSTRUMENTATIONKEY": "6326ac19-0eca-40ae-b7d2-4e2adf3255ba",
+    "WEBSITE_HTTPLOGGING_RETENTION_DAYS": "7",
+    "AZUREAD__AUTHORITY": "https://login.microsoftonline.com/***/",
+    "AZUREAD__CLIENTID": "05b13faa-39ad-4892-87a0-520126934c2c",
+    "CONNECTIONSTRINGS__MeterReadingConnection": "Server=tcp:ae-sp1-p-onlineportal-sql.database.windows.net,1433;Initial",
+    "": "Timeout=30;",
+    "Hangfire__Enabled": "true",
+    "MeterReading__CorsOriginApp__0": "ionic://localhost",
+    "Environment": "production",
+    "StorageConfig__ConnectionString": "***",
+    "AZUREAD__ResourceId": "api://05b13faa-39ad-4892-87a0-520126934c2c",
+    "ConfigPassword": "***",
+    "Hangfire__Key": "fe395d3b-37c6-4232-ab86-1e23225382f8",
+    "MeterReading__CorsOriginApp__1": "https://aesp1pmeterreadingsite.z8.web.core.windows.net"
+}
