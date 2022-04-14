@@ -1,0 +1,25 @@
+plugins {
+	id 'org.springframework.boot' version '2.6.4'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+}
+
+group = 'au.com.geoffh'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	testImplementation "org.mockito:mockito-core:4.3.1+"
+	implementation 'org.springframework.boot:spring-boot-starter'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'com.github.javafaker:javafaker:1.0.2'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+

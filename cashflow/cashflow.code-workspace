@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"type": "java",
+				"name": "Launch Current File",
+				"request": "launch",
+				"mainClass": "${file}"
+			},
+			{
+				"type": "java",
+				"name": "Launch CashflowApplication",
+				"request": "launch",
+				"mainClass": "au.com.geoffh.cashflow.domain.CashflowApplication",
+				"projectName": "cashflow"
+			}
+		]
+	}
+}
