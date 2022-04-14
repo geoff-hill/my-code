@@ -1,0 +1,6 @@
+.dockerignore
+**/*.log
+Dockerfile
+.gitignore
+build/**
+.gradle/**
