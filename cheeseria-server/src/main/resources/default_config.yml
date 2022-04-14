@@ -1,0 +1,6 @@
+server:
+  port: 9100
+  path: api
+data:
+  file: cheeses.json
+
